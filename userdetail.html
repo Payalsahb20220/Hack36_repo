@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<title>User detail for purchasing items</title>
+	<link rel="stylesheet" type="text/css" href="loginStyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+
+  <!-- It will redirect to the Home Page after submitting the form -->
+  <script>
+  $(document).ready(function(){
+    $("form").submit(function(){
+      alert("Thank you for buying these item !");
+    });
+  });
+  </script>
+</head>
+<body>
+		<div class="form-box">
+			
+			<div class="button-box">
+				
+				<h1>User detail</h1>
+			</div>
+			<!-- user detail form Form -->
+			<form id="login" class="input-group" action="index.html">
+				<input type="text" class="input-field" placeholder="Full Name" required="required">
+				<input type="email" class="input-field" placeholder="Email Address" required="required">
+				<input type="tel" class="input-field" placeholder="Mobile number" name="psame" required="required">
+				<input type="text" class="input-field" placeholder="Hostel room no+name" name="psame" required="required">
+				<input type="checkbox" class="check-box" id="chkAgree" onclick="goFurther()">Are you sure to buy this item?
+				<button type="submit" id="btnSubmit" class="submit-btn reg-btn">Buying</button>
+			</form>
+		<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
