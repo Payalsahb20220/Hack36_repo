@@ -2,4 +2,4 @@
 # iit mandi
 steps to run this repo are as follow
 simply clone 
-and ten open index.html i ur chrome 
+and then open index.html in ur chrome browser
